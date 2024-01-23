@@ -1,0 +1,116 @@
+/* Ejercicio Guiado */
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+}
+
+/* Estilo base para todos los enlaces del navbar */
+.oscuro{
+  background-color: #000F08;
+  color: #FFFFFF;
+  padding: 20px 120px 20px 50px;  /* Espaciado interno Arriba, Abajo, Derecha e Izquierda */
+  font-size: 22px;
+}
+
+li{
+  list-style: none;
+  display: inline-block; /* Para que los enlaces se muestren en línea */
+  margin-left: 60px; /* Espaciado horizontal */
+}
+
+
+li a{
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+}
+
+/* logo */
+svg {
+  vertical-align: middle; /* Alinea verticalmente al centro */
+  fill: white; /* Establece el color del icono a blanco */
+  width: 44px; /* Ancho del icono */
+  height: 44px; /* Altura del icono */
+}
+
+.content{
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width: 75%;
+  margin: 0em auto;
+  align-content: center;
+
+}
+
+.content img{
+  max-width: 70%;
+  padding-left: 180px;
+  height: auto;
+  padding-bottom: 60px;
+  
+
+}
+
+.content p{
+  width: 75%;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: left; 
+  margin: 0em auto;
+  padding-bottom: 20px;
+ 
+} 
+
+
+.content h2{
+  padding-bottom: 40px;
+  width: 75%;
+  margin: 0em auto;
+  text-align: left;
+  
+}
+
+  
+.content p{
+  width: 75%;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: left; 
+  margin: 0em auto;
+  padding-bottom: 20px;
+ 
+}
+
+
+
+
+/* Estilos pra footer */
+footer {
+  background-color: #000F08;
+  color: white;
+  padding: 100px; /* Espaciado interno Arriba y Abajo */
+  text-align: center;
+}
+
+/* Estilos para el párrafo */
+footer p {
+  font-size: 25px;
+  text-align: center; /* Alinea el texto a la izquierda */
+  color: #FFFFFF;
+  margin-top: 20px;
+ }
+
+/* Estilos para el párrafo */
+footer i {
+  width: 5%;
+  height: 5%;
+  color: #FFFFFF;
+  border-radius: 5px; /* Bordes redondeados */
+  margin-top: 20px;
+ }
+
