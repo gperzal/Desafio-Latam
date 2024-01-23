@@ -1,0 +1,111 @@
+/*Estilos Generales */
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.navbar-brand {
+    font-family: 'Lobster', regular;
+    font-size: 2.3125rem;
+    font-weight: 400;
+   
+}
+
+:root{
+    --color-1 : #373a3c;
+    --color-2 : #dddddd;
+    --white : #fff;
+    --black : #000;
+    --danger : #dc3545;
+}
+
+/* Carousel */
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+    background-color: var(--color-1);
+
+}
+
+.carousel-indicators {
+    top: 15rem;
+}
+
+/* Recetas e Ingredientes */
+.receta {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Cards */
+.newsletter {
+    padding: 100px;
+    background-color: var(--danger);
+    color: var(--color-2);
+}
+
+
+/* Footer */
+.logo-footer {
+    font-family: 'Lobster', regular;
+    font-size: 1.2rem;
+}
+
+.footer-rojo {
+    font-size: 1.2rem;
+}
+.footer{
+    background-color: var(--color-1);
+}
+h3 {
+    font-weight: bold;
+    font-family: 'Lobster', regular;
+    font-size: 2.3125rem;
+    font-weight: 400;
+}
+
+/* Media Queri Botones Carrusel para diferentes resoluciones*/
+
+@media ((min-width: 600px) and (max-width: 799px)){
+    .carousel-indicators {
+        top: 8rem;
+    }
+}
+
+@media ((min-width: 800px) and (max-width: 999px)){
+    .carousel-indicators {
+        top: 8rem;
+    }
+}
+
+@media ((min-width: 1000px) and (max-width: 1199px)){
+    .carousel-indicators {
+        top: 10.5rem;
+    }
+}
+
+
+@media ((min-width: 1200px) and (max-width: 1399px)){
+    .carousel-indicators {
+        top: 12.5rem;
+    }
+}
+
+@media ((min-width: 1400px) and (max-width: 1599px)){
+    .carousel-indicators {
+        top: 14.5rem;
+    }
+}
+@media ((min-width: 1600px) and (max-width: 2000px)){
+    .carousel-indicators {
+        top: 14.5rem;
+    }
+}
