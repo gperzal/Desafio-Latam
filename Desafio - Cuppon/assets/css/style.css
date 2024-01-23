@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --title-cards: #212529;
+    --body-card: #707070;
+    --light: #F8F9FA;
+    --background: #fff;
+    --cuppon: #28a745;
+}
+.navbar-brand img {
+    width: 82px;
+ }
+ .navbar {
+    background-color: var(--cuppon);
+    padding: 18px 20px;
+ }
+ 
+a {
+    text-decoration: none;
+    color: var(--body-card);
+}
+.card {
+    width: 18rem;
+    color: var(--body-card);
+}
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text-success {
+    font-size: 20px;
+    font-weight:400;
+}
+.text-secondary {
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.text-secondary-2 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+.formulario {
+    background-color: var(--cuppon);
+}
+form {
+    margin: 0 auto;
+}
+input {
+    width: 100px;
+    font-weight: 100;
+}
+footer img {
+height: 24px;
+margin-top: 20px;
+}
+footer {
+    text-align: center;
+}
+footer p {
+    color: var(--body-card);
+    font-weight: 100;
+    font-size: 16px;
+}
